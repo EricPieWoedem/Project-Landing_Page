@@ -3,6 +3,11 @@
     src:url(Roboto.ttf)
 }
 
+@font-face {
+    font-family: myFont2;
+    src: url(Roboto-Light.ttf);
+}
+
  /* * {
     border: 1px solid red;
  } */
@@ -13,6 +18,7 @@ body {
     font-family: myFont;
 }
 
+/* header */
 
 .header {
     background-color: #1f2937;
@@ -128,5 +134,137 @@ a {
 .top-sign-up:hover {
     background-color: #1053be;
 }
+
+/* Body */
+
+.info-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bolder;
+    margin-bottom: 50px;
+}
+
+
+.info {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    height: 300px;
+    margin-bottom: 80px;
+
+}
+
+.one, .two, .three, .four {
+    width: 180px;
+}
+
+.img1, .img2, .img3, .img4 {
+    border: 3px solid;
+    border-color: #3882f6;
+    border-radius: 10px;
+    width: 180px;
+    height: 180px;
+    background-color: #ffffff;
+}
+
+.descr {
+    text-align: center;
+    color: #666666;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    align-items: center;
+    justify-content: center;
+    height: 350px;
+
+}
+
+.saying {
+    margin-bottom: 0px;
+    font-size: 24px;
+    font-weight: lighter;
+    font-style: italic;
+    font-family: myFont2;
+}
+
+.by {
+    margin-top: 0px;
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.below-quote {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.sign-up-background {
+    display: flex;
+    justify-content: space-around;
+    width: 1000px;
+    height: 120px;
+    background-color: #3882f6;
+    border-radius: 10px;
+}
+
+.sign-up {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    color: white;
+    justify-content: center;
+}
+
+.up {
+    margin-bottom: 0px;
+    font-size: larger;
+    font-weight: bolder;
+}
+
+.down {
+    margin-top: 0px;
+    font-family: myFont2;
+}
+
+.bottom-button {
+    display: flex;
+    align-items: center;
+}
+.bottom-sign-up {
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    height: 40px;
+    width: 120px;
+    font-size: 16px;
+}
+
+.bottom-sign-up:hover {
+    transform: translateY(-3px);
+    background-color: #1f70f3;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    height: 80px;
+}
+
+.footer p {
+    font-size: 16px;
+    color: #c4c4c4;
+}
+
+
+
 
 
